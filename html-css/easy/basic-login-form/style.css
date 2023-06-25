@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html,
@@ -11,64 +11,63 @@ body {
   width: 100%;
 }
 
-body{
-    background-color:rgb(219, 215, 215);
+body {
+  background-color: rgb(219, 215, 215);
 }
 
-#login-form{
-    height: 650px;
-    width: 450px;
-    background-color: #fff;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-
+#login-form {
+  height: 650px;
+  width: 450px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-h1{
-    position: relative;
-    top: 4%;
-    text-align: center;
+h1 {
+  position: relative;
+  top: 4%;
+  text-align: center;
 }
 
-.form-details{
-    position: absolute;
-    top: 10%;
-    margin: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
+.form-details {
+  position: absolute;
+  top: 10%;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 /* .form-details label,.form-details input{
     width: 100%;
 } */
 
-.form-details div{
-    margin: 20px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 75%;
+.form-details div {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
 }
 
-input{
-    padding: 10px;
-    margin: 5px;
-    border: 1px solid rgb(228, 228, 228);
-    border-radius: 5px;
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
 }
-label{
-    margin: 5px;
-    font-weight: 700;
-    color: rgb(110, 110, 110);
+label {
+  margin: 5px;
+  font-weight: 700;
+  color: rgb(110, 110, 110);
 }
-button{
-    padding: 10px;
-    margin: 10px 20px;
-    width: 75%;
-    background-color:blue;
-    color: #fff;
-    border-radius: 8px;
+button {
+  padding: 10px;
+  margin: 10px 20px;
+  width: 75%;
+  background-color: blue;
+  color: #fff;
+  border-radius: 8px;
 }
