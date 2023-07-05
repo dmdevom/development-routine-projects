@@ -100,3 +100,22 @@ menuIcon.addEventListener("click",function(){
     }
     
 })
+
+const cookButton = document.querySelector("#cook-button");
+cookButton.addEventListener("click", function(){
+  const cookButtonTimeline = gsap.timeline();
+  cookButtonTimeline.from("#cook-button",{
+    scale:1.1,
+    repeat:3,
+    duration:1,
+    // yoyo:true,
+    stagger: 0.25,
+    ease: Power3.easeInOut,
+  })
+  // .to("#cook-button",{
+  //   scale:1,
+  //   repeat:5,
+  //   duration:0.5,
+  //   // yoyo:true,
+  // })
+})
